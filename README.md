@@ -20,7 +20,7 @@ KahootGen is a Python-based tool that uses OpenAI's GPT model to generate multip
 2. Create a virtual environment and activate it:
    ```bash
    python -m venv venv
-   source venv/bin/activate
+   venv\Scripts\activate
    ```
 
 3. Install the required dependencies:
