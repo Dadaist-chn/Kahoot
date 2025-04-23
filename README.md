@@ -13,7 +13,7 @@ KahootGen is a Python-based tool that uses OpenAI's GPT model to generate multip
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jerry871002/kahootgen.git
+   git clone https://github.com/Dadaist-chn/Kahoot.git
    cd kahootgen
    ```
 
