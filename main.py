@@ -17,6 +17,7 @@ logger = logging.getLogger(__name__)
 language_mapping = {
     'en': 'English',
     'zh-tw': 'Traditional Chinese, using the translation convention in Taiwan'
+    'zh-cn': 'Simplified Chinese, using the translation convention in Mainland China'
 }
 
 def main(themes: list[str], num_questions: int, language: str, output_path: str) -> None:
@@ -101,7 +102,7 @@ if __name__ == '__main__':
         '--language', '-l',
         type=str,
         default='en',
-        choices=['en', 'zh-tw'],
+        choices=['en', 'zh-tw', 'zh-cn'],
         help="Language for the quiz questions (default: English)"
     )
     parser.add_argument(
