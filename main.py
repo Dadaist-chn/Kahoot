@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 language_mapping = {
     'en': 'English',
-    'zh-tw': 'Traditional Chinese, using the translation convention in Taiwan'
+    'zh-tw': 'Traditional Chinese, using the translation convention in Taiwan'，
     'zh-cn': 'Simplified Chinese, using the translation convention in Mainland China'
 }
 
